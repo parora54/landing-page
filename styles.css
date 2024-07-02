@@ -169,3 +169,15 @@ button {
 .action-text {
     color: #e5e7eb;
 }
+
+.footer.section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.copyright {
+    color:#e5e7eb;
+}
