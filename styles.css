@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section {
+    background-color: #1f2937;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.header {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.title.main-text {
+    font-size: 48px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.sign-up {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sign-up .image {
+    background-color: grey;
+    color: darkslategrey;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 100px;
+}
+
+.sign-up .form {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
